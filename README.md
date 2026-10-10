@@ -1,25 +1,17 @@
-# Al Amin — Portfolio Website
+# Al Amin — Engineering Notebook Portfolio
 
-A responsive personal engineering portfolio built with plain HTML, CSS, and JavaScript, designed for GitHub Pages.
+A responsive personal portfolio with an editorial engineering-notebook aesthetic, built using plain HTML, CSS, and JavaScript.
 
 ## Files
-- `index.html` — page content and sections
-- `style.css` — responsive dark navy/cyan styling
-- `script.js` — mobile navigation, active section highlighting, and footer year
+- `index.html` — page content
+- `style.css` — warm-paper, forest-green, and orange visual style
+- `script.js` — navigation menu and footer year
 
-## Publish with GitHub Pages
-1. Create a public repository named **`alamin155241.github.io`** under your GitHub account.
-2. Upload `index.html`, `style.css`, and `script.js` to the repository root.
-3. Open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select branch **`main`** and folder **`/ (root)`**, then save.
-6. Wait for GitHub Pages to publish. Your site should be available at `https://alamin155241.github.io/`.
+## Update the existing GitHub Pages site
+1. Open https://github.com/alamin155241/alamin155241.github.io
+2. Choose **Add file → Upload files**.
+3. Upload these four files from this folder and confirm replacing the existing versions.
+4. Commit the changes to `main`.
+5. Wait for Pages to redeploy, then refresh https://alamin155241.github.io/.
 
-## Before publishing
-- Confirm the email address and expected graduation date.
-- Replace placeholder project-repository links once your repositories are created.
-- Add a LinkedIn link when your profile is ready.
-- Only add results, screenshots, publications, and claims you can verify.
-
-## Local preview
-Open `index.html` in a browser. No build tools are required.
+Project links currently point to your GitHub profile. Replace them with dedicated project repositories when those are ready. Only publish results and claims you can verify.

@@ -1,109 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Al Amin — IoT and Robotics Engineering student working on AI, computer vision, embedded systems, and intelligent systems.">
-  <meta name="theme-color" content="#08111f">
-  <title>Al Amin | Robotics • AI • Embedded Systems</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
-</head>
-<body>
-  <div class="background-grid" aria-hidden="true"></div>
-  <header class="site-header">
-    <nav class="nav container" aria-label="Main navigation">
-      <a class="brand" href="#home" aria-label="Al Amin home"><span class="brand-mark">A<span>.</span></span><span>AL AMIN</span></a>
-      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
-      <div class="nav-links">
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#education">Education</a>
-        <a class="nav-contact" href="#contact">Contact <span>↗</span></a>
-      </div>
-    </nav>
-  </header>
-
-  <main>
-    <section class="hero container" id="home">
-      <div class="hero-copy">
-        <div class="eyebrow"><span class="status-dot"></span> IoT & ROBOTICS ENGINEERING UNDERGRADUATE</div>
-        <h1>Building intelligent systems<br>at the edge of <span class="gradient-text">AI & robotics.</span></h1>
-        <p class="hero-description">I'm Al Amin, an engineering student interested in computer vision, embedded systems, and practical AI that connects software with the physical world.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#projects">Explore my work <span>↓</span></a>
-          <a class="button button-secondary" href="https://github.com/alamin155241" target="_blank" rel="noreferrer">GitHub profile <span>↗</span></a>
-        </div>
-        <div class="hero-meta">
-          <span><i class="meta-icon">⌁</i> Bangladesh</span>
-          <span><i class="meta-icon">⌘</i> AI · Embedded · Robotics</span>
-        </div>
-      </div>
-      <div class="hero-visual" aria-label="Decorative robotics-inspired graphic">
-        <div class="orbit orbit-one"></div>
-        <div class="orbit orbit-two"></div>
-        <div class="orbit orbit-three"></div>
-        <div class="core">
-          <div class="core-inner"><span class="core-symbol">A<span>.</span></span><span class="core-caption">ENGINEERING<br>IN PROGRESS</span></div>
-        </div>
-        <span class="float-tag tag-ai">AI / ML</span>
-        <span class="float-tag tag-iot">IoT + EDGE</span>
-        <span class="float-tag tag-cv">COMPUTER VISION</span>
-        <span class="visual-cross cross-one">+</span><span class="visual-cross cross-two">+</span>
-      </div>
-    </section>
-
-    <section class="section container" id="about">
-      <div class="section-heading"><span class="section-index">01 / ABOUT</span><h2>Curious by nature.<br><span class="muted">Engineer by practice.</span></h2></div>
-      <div class="about-layout">
-        <p class="about-lead">I study <strong>Internet of Things and Robotics Engineering</strong> at the University of Frontier Technology, Bangladesh (UFTB). I enjoy building systems where machine learning, sensors, embedded hardware, and real-world problems meet.</p>
-        <div class="about-facts">
-          <div class="fact"><span class="fact-label">FOCUS</span><span>Intelligent systems & applied AI</span></div>
-          <div class="fact"><span class="fact-label">APPROACH</span><span>Build · Test · Measure · Improve</span></div>
-          <div class="fact"><span class="fact-label">CURRENT GOAL</span><span>Grow as a robotics and AI engineer</span></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section container" id="skills">
-      <div class="section-heading"><span class="section-index">02 / TOOLKIT</span><h2>Tools I work with.</h2><p class="section-note">A practical snapshot of technologies I've used in projects and coursework.</p></div>
-      <div class="skill-grid">
-        <article class="skill-card"><div class="skill-icon">⌘</div><h3>Programming</h3><div class="chips"><span>Python</span><span>C / C++</span><span>SQL</span><span>JavaScript</span><span>PHP</span></div></article>
-        <article class="skill-card"><div class="skill-icon">◈</div><h3>AI & Computer Vision</h3><div class="chips"><span>TensorFlow</span><span>Keras</span><span>CNNs</span><span>MobileNetV2</span><span>DenseNet121</span><span>EfficientNetB0</span><span>TensorFlow Lite</span></div></article>
-        <article class="skill-card"><div class="skill-icon">⌁</div><h3>Embedded & IoT</h3><div class="chips"><span>ESP32</span><span>Arduino UNO</span><span>I²C</span><span>Sensors</span><span>Actuators</span><span>FreeRTOS — exploring</span></div></article>
-        <article class="skill-card"><div class="skill-icon">▣</div><h3>Development & Tools</h3><div class="chips"><span>FastAPI</span><span>Flutter</span><span>Git</span><span>GitHub</span><span>Linux</span><span>Google Colab</span></div></article>
-      </div>
-    </section>
-
-    <section class="section container" id="projects">
-      <div class="section-heading"><span class="section-index">03 / SELECTED WORK</span><h2>Projects with a purpose.</h2><p class="section-note">These are the main projects currently documented on this portfolio. Repository links can be added when each project repository is ready.</p></div>
-      <div class="project-grid">
-        <article class="project-card project-featured">
-          <div class="project-topline"><span class="project-number">PROJECT 01</span><span class="project-status"><span class="status-dot"></span> CAPSTONE</span></div>
-          <div class="project-art rice-art" aria-hidden="true"><div class="scan-line"></div><div class="leaf-shape leaf-a"></div><div class="leaf-shape leaf-b"></div><div class="leaf-shape leaf-c"></div><div class="art-label">VISION SYSTEM <span>01</span></div></div>
-          <div class="project-content"><div class="project-category">AI / COMPUTER VISION / MOBILE AI</div><h3>Neuro-Symbolic Rice Leaf Disease Detection</h3><p>A rice leaf disease detection system combining CNN-based image classification with symbolic knowledge and reasoning, designed for a Bangla-language mobile experience and offline inference using TensorFlow Lite.</p><div class="project-tags"><span>TensorFlow</span><span>EfficientNetB0</span><span>MobileNetV2</span><span>DenseNet121</span><span>TFLite</span></div><div class="project-links"><a href="https://github.com/alamin155241" target="_blank" rel="noreferrer">View GitHub profile <span>↗</span></a><span class="link-note">Project repository to be linked</span></div></div>
-        </article>
-        <article class="project-card">
-          <div class="project-topline"><span class="project-number">PROJECT 02</span><span class="project-status">IOT / EMBEDDED</span></div>
-          <div class="project-art home-art" aria-hidden="true"><div class="house-outline"><span class="house-roof"></span><span class="house-body"><i></i><i></i><b></b></span></div><div class="sensor-node node-one"></div><div class="sensor-node node-two"></div><div class="sensor-node node-three"></div><div class="art-label">CONNECTED HOME <span>02</span></div></div>
-          <div class="project-content"><div class="project-category">EMBEDDED SYSTEMS / AUTOMATION</div><h3>IoT-Based Smart Home Automation</h3><p>An ESP32 and Arduino UNO system integrating sensors, relays, a servo, and automatic/manual control logic, with I²C communication between the boards and remote status-based control.</p><div class="project-tags"><span>ESP32</span><span>Arduino UNO</span><span>I²C</span><span>DHT11</span><span>Ultrasonic</span></div><div class="project-links"><a href="https://github.com/alamin155241" target="_blank" rel="noreferrer">View GitHub profile <span>↗</span></a><span class="link-note">Project repository to be linked</span></div></div>
-        </article>
-      </div>
-      <div class="project-footnote"><span class="footnote-mark">+</span><p><strong>In exploration:</strong> RTOS scheduling, robotics, and edge AI. These will be added as separate projects when implementation and results are ready.</p></div>
-    </section>
-
-    <section class="section container" id="education">
-      <div class="section-heading"><span class="section-index">04 / EDUCATION</span><h2>Learning the systems<br>behind the intelligence.</h2></div>
-      <div class="education-card"><div class="edu-mark">UFTB</div><div class="edu-main"><span class="edu-period">UNDERGRADUATE · EXPECTED 2027</span><h3>B.Sc. Engineering in Internet of Things and Robotics Engineering</h3><p>University of Frontier Technology, Bangladesh (UFTB)</p></div><div class="edu-side">Bangladesh<br><span>Engineering</span></div></div>
-      <div class="research-row"><span class="section-index">RESEARCH INTERESTS</span><div class="research-items"><span>Robotics & intelligent systems</span><span>Computer vision</span><span>Embedded / Edge AI</span><span>Autonomous systems</span><span>Neuro-symbolic AI</span></div></div>
-    </section>
-
-    <section class="contact-section" id="contact"><div class="container contact-inner"><span class="section-index">05 / CONTACT</span><h2>Let's build something<br><span class="gradient-text">meaningful.</span></h2><p>Interested in robotics, applied AI, or engineering collaboration? Feel free to reach out.</p><div class="contact-actions"><a class="button button-primary" href="mailto:alamin155241@gmail.com">Email me <span>↗</span></a><a class="button button-secondary" href="https://github.com/alamin155241" target="_blank" rel="noreferrer">GitHub <span>↗</span></a></div><p class="linkedin-note">LinkedIn link can be added when your profile is ready.</p></div></section>
-  </main>
-  <footer class="site-footer"><div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">A<span>.</span></span><span>AL AMIN</span></a><span>Designed and built with curiosity.</span><a href="#home">Back to top ↑</a><span class="copyright">© <span id="year"></span> Al Amin</span></div></footer>
-</body>
-</html>
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f3f0e8"><meta name="description" content="Al Amin — IoT and Robotics Engineering, applied AI, computer vision and embedded systems.">
+<title>Al Amin — Engineering Notebook</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"><script src="script.js" defer></script></head>
+<body><header class="top"><a class="logo" href="#home">AA<span>/</span></a><span class="micro">ENGINEERING NOTEBOOK — 2026</span><button id="menubtn" aria-expanded="false">MENU <b>+</b></button><nav id="nav"><a href="#work">Selected work <i>01</i></a><a href="#method">Approach <i>02</i></a><a href="#about">About <i>03</i></a><a href="#contact">Contact <i>04</i></a></nav></header>
+<main id="home">
+<section class="hero wrap"><div class="eyebrow"><span></span>IOT & ROBOTICS ENGINEERING / BANGLADESH</div><h1>Curiosity in.<br><em>Systems out.</em></h1><div class="hero-bottom"><p>I'm <b>Al Amin</b> — an engineering undergraduate exploring the space between intelligent software and the physical world. I build with machine learning, computer vision, sensors, and embedded systems.</p><div class="interests"><label>CURRENT INTERESTS</label><span>01 / Applied AI</span><span>02 / Embedded systems</span><span>03 / Robotics</span></div></div><a class="scroll" href="#work">—— SCROLL TO EXPLORE <b>↓</b></a><div class="stamp">BUILD · TEST · LEARN</div></section>
+<section class="wrap work" id="work"><div class="sectionline"><b>01 — SELECTED WORK</b><span>PROJECTS / PROTOTYPES / LEARNING</span></div>
+<article class="project"><div class="art rice"><div class="arthead"><span>CV / 001</span><span>IMAGE CLASSIFICATION</span></div><div class="leaves"><i></i><i></i><i></i><b></b></div><div class="scan">DETECTION REGION</div><div class="artfoot"><span>NEURO-SYMBOLIC SYSTEM</span><span>01</span></div></div><div class="project-copy"><div class="label">CAPSTONE PROJECT <span>AI / COMPUTER VISION</span></div><h2>Can a leaf tell us<br>what it needs?</h2><p>A rice leaf disease detection system combining CNN image classification with symbolic knowledge and reasoning. Designed around a Bangla-language mobile experience, with offline inference using TensorFlow Lite.</p><div class="tags"><span>TensorFlow</span><span>EfficientNetB0</span><span>MobileNetV2</span><span>DenseNet121</span><span>TensorFlow Lite</span></div><a class="link" href="https://github.com/alamin155241" target="_blank" rel="noreferrer">EXPLORE MY GITHUB <b>↗</b></a><small>Dedicated project repository will be linked here.</small></div></article>
+<article class="project reverse"><div class="art homeart"><div class="arthead"><span>IOT / 002</span><span>SENSOR NETWORK</span></div><div class="circuit"><i></i><i></i><i></i><i></i><i></i></div><div class="house"><div class="roof"></div><div class="bodyhouse"><i></i><i></i><b></b></div></div><span class="node n1">ESP32</span><span class="node n2">UNO</span><span class="node n3">SENSOR</span><div class="artfoot"><span>CONNECTED ENVIRONMENT</span><span>02</span></div></div><div class="project-copy"><div class="label">EMBEDDED SYSTEM <span>IOT / AUTOMATION</span></div><h2>A home that<br>responds.</h2><p>An ESP32 and Arduino UNO smart home prototype integrating sensors, relays, a servo, and automatic/manual control logic. The boards communicate over I²C, connecting sensor input to physical actions.</p><div class="tags"><span>ESP32</span><span>Arduino UNO</span><span>I²C</span><span>DHT11</span><span>Ultrasonic</span></div><a class="link" href="https://github.com/alamin155241" target="_blank" rel="noreferrer">EXPLORE MY GITHUB <b>↗</b></a><small>Dedicated project repository will be linked here.</small></div></article>
+<div class="next"><label>NEXT IN THE NOTEBOOK</label><p>RTOS scheduling · Robotics experiments · Edge AI<br><small>More projects will be added when implementation and results are ready to share.</small></p></div></section>
+<section class="method" id="method"><div class="wrap"><div class="sectionline"><b>02 — HOW I WORK</b><span>A PRACTICAL MINDSET</span></div><h2>Less buzzwords.<br>More <em>building.</em></h2><div class="steps"><article><label>01</label><div><h3>Understand the problem</h3><p>Start with the real-world need, constraints, and what a useful result should look like.</p></div><b>↘</b></article><article><label>02</label><div><h3>Connect the pieces</h3><p>Bring together software, data, hardware, and reasoning instead of treating them as isolated parts.</p></div><b>⌁</b></article><article><label>03</label><div><h3>Test and improve</h3><p>Measure what works, document limitations, and make the next iteration more reliable.</p></div><b>↗</b></article></div></div></section>
+<section class="wrap about" id="about"><div class="sectionline"><b>03 — A LITTLE CONTEXT</b><span>THE PERSON BEHIND THE PROJECTS</span></div><div class="aboutgrid"><h2>Engineering student.<br><span>Lifelong learner.</span></h2><div><p>I'm studying for a B.Sc. in Internet of Things and Robotics Engineering at the University of Frontier Technology, Bangladesh (UFTB).</p><p>I'm especially interested in robotics, computer vision, embedded AI, and intelligent systems. I want to keep building practical projects while developing the foundations needed for deeper engineering and research.</p><dl><dt>EDUCATION</dt><dd>B.Sc. Engineering · Expected 2027</dd><dt>TECHNICAL TOOLKIT</dt><dd>Python · C/C++ · TensorFlow · ESP32 · Arduino · FastAPI · Flutter · Git</dd><dt>RESEARCH CURIOSITY</dt><dd>Neuro-symbolic AI · Autonomous systems · Edge AI</dd></dl></div></div></section>
+<section class="contact" id="contact"><div class="wrap"><label>04 — SAY HELLO</label><h2>Good work starts<br>with a <em>conversation.</em></h2><p>Have a project idea, research question, or interest in engineering collaboration? I'd be glad to connect.</p><div class="contactlinks"><a href="mailto:alamin155241@gmail.com">EMAIL ME <b>↗</b></a><a href="https://github.com/alamin155241" target="_blank" rel="noreferrer">GITHUB <b>↗</b></a></div></div></section></main>
+<footer class="wrap footer"><a class="logo" href="#home">AA<span>/</span></a><span>MADE TO LEARN. BUILT TO IMPROVE.</span><span>© <b id="year"></b> AL AMIN</span></footer></body></html>
