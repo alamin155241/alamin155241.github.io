@@ -51,7 +51,7 @@ Then visit <http://127.0.0.1:4173>. Stop the server with Ctrl+C. If starting in 
 - Mobile navigation with Escape/outside-click dismissal, active-section indication, skip link, visible keyboard focus, and reduced-motion support.
 - Content and navigation remain accessible when JavaScript is disabled.
 - Email actions open the visitor's email application. There is no form backend and no message is sent automatically.
-- GitHub links point to the supplied profile. Project actions are explicitly labeled email discussions; no repository or demo URLs have been invented.
+- Five project cards link to their published source repositories: rice disease detection, smart home automation, FarmGuard, ROS 2/Gazebo simulation, and SMS classification. The one-page CV includes all five repository links.
 
 Identity and the two project subjects come from the supplied brief. Technical skills were checked against [Al Amin's public GitHub profile](https://github.com/alamin155241) on October 10, 2026. No results, accuracy figures, publications, or awards are claimed. The original RTOS study and graduation date are omitted from the revised page. The project artwork is labeled **concept illustration**, not presented as actual hardware photos or application screenshots.
 

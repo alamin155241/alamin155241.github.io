@@ -67,8 +67,8 @@ window.PORTFOLIO = {
       visualCaption: "Vision + reasoning",
       theme: "dark", // "dark" or "light"
       // Add a real repository/demo URL to show its link. Empty uses an email discussion link.
-      url: "",
-      linkLabel: "View project",
+      url: "https://github.com/alamin155241/rice-leaf-neuro-symbolic-ai",
+      linkLabel: "View source code",
     },
     {
       title: "A more\nconnected home.",
@@ -76,15 +76,78 @@ window.PORTFOLIO = {
       category: "Embedded systems",
       field: "Connected systems",
       badge: "IoT project",
-      description: "A home automation project using ESP32 and Arduino UNO. Exploring how connected microcontrollers bring software and physical devices together in everyday spaces.",
+      description: "An ESP32 and Arduino UNO prototype with sensor-based automatic control and manual commands. The published implementation connects the boards over UART and uses Adafruit IO with a browser telemetry dashboard.",
       tags: ["ESP32", "Arduino UNO", "IoT", "Home Automation"],
       image: "src/assets/smart-home.svg",
       imageAlt: "Concept illustration of ESP32 and Arduino UNO in a connected home",
       imageLabel: "Concept illustration",
       visualCaption: "Hardware + automation",
       theme: "light",
-      url: "",
-      linkLabel: "View project",
+      url: "https://github.com/alamin155241/esp32-arduino-smart-home",
+      linkLabel: "View source code",
+    },
+    {
+      "title": "FarmGuard\nSensor Monitoring",
+      "fullName": "FarmGuard-AI",
+      "category": "Sensor fusion",
+      "field": "IoT & machine learning",
+      "badge": "Engineering project",
+      "description": "ESP32 sensor fusion and MQTT telemetry with a Streamlit dashboard, decision-tree experiments, and optional camera verification. The public repository includes source code; recorded trials and trained models stay local.",
+      "tags": [
+        "ESP32",
+        "MQTT",
+        "Streamlit",
+        "Computer Vision"
+      ],
+      "image": "src/assets/farmguard.svg",
+      "imageAlt": "Concept diagram of sensors feeding monitoring and verification",
+      "imageLabel": "Concept illustration",
+      "visualCaption": "Sense + verify",
+      "theme": "dark",
+      "url": "https://github.com/alamin155241/farmguard-ai",
+      "linkLabel": "View source code"
+    },
+    {
+      "title": "Robot Joints\nin Simulation",
+      "fullName": "ROS 2 Gazebo Joint Simulation",
+      "category": "Robot simulation",
+      "field": "Robotics",
+      "badge": "Learning project",
+      "description": "ROS 2 Humble and Gazebo Classic models for a prismatic slider and a universal joint. Includes URDF descriptions, controller configuration, launch files, and Python adapters for GUI-driven joint commands.",
+      "tags": [
+        "ROS 2",
+        "Gazebo",
+        "URDF",
+        "Python"
+      ],
+      "image": "src/assets/robot-joints.svg",
+      "imageAlt": "Concept diagram of a robot joint command pipeline",
+      "imageLabel": "Concept illustration",
+      "visualCaption": "Model + control",
+      "theme": "light",
+      "url": "https://github.com/alamin155241/ros2-gazebo-joint-simulation",
+      "linkLabel": "View source code"
+    },
+    {
+      "title": "SMS Spam\nClassification",
+      "fullName": "SMS Spam Detection with Naive Bayes",
+      "category": "Text classification",
+      "field": "Machine learning",
+      "badge": "Lab project",
+      "description": "A scikit-learn pipeline using count vectors and Multinomial Naive Bayes to classify SMS messages. Uses a stratified train/test split and reports precision, recall, and a confusion matrix on the UCI SMS Spam Collection.",
+      "tags": [
+        "Python",
+        "scikit-learn",
+        "Naive Bayes",
+        "NLP"
+      ],
+      "image": "src/assets/sms-classifier.svg",
+      "imageAlt": "Concept diagram of text transformed into spam or ham predictions",
+      "imageLabel": "Concept illustration",
+      "visualCaption": "Text + prediction",
+      "theme": "dark",
+      "url": "https://github.com/alamin155241/sms-spam-naive-bayes",
+      "linkLabel": "View source code"
     },
   ],
 
