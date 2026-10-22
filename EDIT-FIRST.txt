@@ -1,0 +1,32 @@
+START HERE ? EASY PORTFOLIO UPDATES
+
+1. Open portfolio.js. This is your content file.
+2. Change the text between quotation marks. Keep commas and brackets.
+3. Save and refresh index.html in your browser.
+
+PHOTO
+Copy your picture into src/assets/profile.png, then set:
+  photo: "src/assets/profile.png",
+
+CV
+Copy your PDF into src/assets/resume.pdf, then set:
+  resume: "src/assets/resume.pdf",
+Leave resume empty to hide the CV button.
+
+PROJECTS AND SKILLS
+Copy an existing object in the projects or skills list to add another.
+Delete or reorder objects to remove or reorder cards/groups.
+No layout edits are required.
+
+LINKS
+Edit profile.email and profile.github once; all contact links update.
+Give each project a real url, or leave it empty for an email link.
+
+Do not edit content.js or script.js for everyday updates.
+The original static index.html is a fallback when JavaScript is disabled.
+See README.md for examples. Nothing is published automatically.
+
+CERTIFICATES
+Place your PDF/image files in src/assets/certificates/.
+In portfolio.js, uncomment and fill the example in certificates.
+Copy the object to add more cards. Extra cards appear under View all certificates.

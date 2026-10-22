@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="500" viewBox="0 0 560 500" fill="none">
+  <defs>
+    <linearGradient id="board" x1="115" y1="170" x2="426" y2="350" gradientUnits="userSpaceOnUse"><stop stop-color="#24433f"/><stop offset="1" stop-color="#112c30"/></linearGradient>
+    <linearGradient id="chip" x1="215" y1="156" x2="353" y2="285" gradientUnits="userSpaceOnUse"><stop stop-color="#e1f6b4"/><stop offset="1" stop-color="#abc978"/></linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="220%"><feGaussianBlur stdDeviation="15"/></filter>
+  </defs>
+  <g stroke="#bccab9" stroke-width=".7" opacity=".65"><path d="m35 281 255-147 245 141-255 147Z"/><path d="m35 305 255-147 245 141M35 329l255-147 245 141M35 353l255-147 245 141M78 256l245 142M121 231l245 142M164 206l245 142M207 181l245 142M250 156l245 142"/></g>
+  <ellipse cx="283" cy="351" rx="146" ry="45" fill="#234637" opacity=".2" filter="url(#shadow)"/>
+  <path d="m113 260 173-100 175 100v26L287 389 113 286Z" fill="#c3ceba" stroke="#839b80"/>
+  <path d="m113 260 174 100 174-100M287 360v29" stroke="#8a9f85"/>
+  <path d="m113 234 173-100 175 100v23L287 359 113 257Z" fill="#132e2d" stroke="#5c7e62"/>
+  <path d="m113 234 173-100 175 100-174 101Z" fill="url(#board)" stroke="#6c8d69"/>
+  <g stroke="#779c6c" stroke-width="1.2"><path d="m136 238 60-35 41 24M155 250l57-33M181 265l45-26M206 280l29-17M235 298l28-17M258 311l27-16M335 180l-31 18M357 193l-28 17M381 206l-38 22M406 220l-49 28M427 232l-61 35-25-14M402 254l-33 19M378 268l-25 14"/></g>
+  <g fill="#b9d28f"><circle cx="136" cy="238" r="3"/><circle cx="155" cy="250" r="2"/><circle cx="206" cy="280" r="2"/><circle cx="258" cy="311" r="3"/><circle cx="335" cy="180" r="2"/><circle cx="406" cy="220" r="2"/><circle cx="402" cy="254" r="3"/></g>
+  <g stroke="#b9c7ad" stroke-width="5"><path d="m220 213-17 10m28-4-17 10m28-4-17 10m28-4-17 10m28-4-17 10m28-4-17 10M314 159l17-10m-6 17 17-10m-6 17 17-10m-6 17 17-10m-6 17 17-10"/></g>
+  <path d="m207 197 79-46 84 48v38l-81 47-82-49Z" fill="#6d8a54" stroke="#bdd799"/>
+  <path d="m207 197 82 48 81-46v38l-81 47-82-49Z" fill="#759459"/>
+  <path d="m289 245 81-46v38l-81 47Z" fill="#536f43"/>
+  <path d="m207 197 79-46 84 48-81 46Z" fill="url(#chip)" stroke="#e5f2cf"/>
+  <path d="m224 197 63-36 65 38-63 36Z" stroke="#6b8f4c" opacity=".55"/>
+  <g transform="matrix(.87 .5 -.87 .5 286 172)" stroke="#36563a" stroke-width="2"><path d="M0 9h26v26H0Z"/><path d="M7 16h12v12H7ZM5 9V3m8 6V3m8 6V3M5 35v6m8-6v6m8-6v6M0 14h-6m6 8h-6m6 8h-6m32-16h6m-6 8h6m-6 8h6"/></g>
+  <g stroke="#65805c" stroke-width="1"><path d="M151 191v-75h60"/><path d="M371 248h118v-50"/><path d="M248 319v86h-83"/></g>
+  <g fill="#326545"><circle cx="151" cy="191" r="3"/><circle cx="371" cy="248" r="3"/><circle cx="248" cy="319" r="3"/></g>
+  <g font-family="Consolas,monospace" fill="#37513f"><rect x="71" y="65" width="139" height="52" rx="4" fill="#f6f7f2" stroke="#c5d2bf"/><text x="85" y="84" font-size="8" letter-spacing="1">01 / INPUT</text><text x="85" y="104" font-size="12">Sense the world</text><rect x="376" y="145" width="145" height="52" rx="4" fill="#f6f7f2" stroke="#c5d2bf"/><text x="390" y="165" font-size="8" letter-spacing="1">02 / INTELLIGENCE</text><text x="390" y="184" font-size="12">Learn &amp; reason</text><rect x="35" y="380" width="130" height="52" rx="4" fill="#f6f7f2" stroke="#c5d2bf"/><text x="49" y="400" font-size="8" letter-spacing="1">03 / ACTION</text><text x="49" y="419" font-size="12">Make an impact</text></g>
+  <g fill="#537b50"><circle cx="287" cy="99" r="4"/><path d="M287 110v20" stroke="#537b50" stroke-dasharray="2 4"/></g>
+</svg>
