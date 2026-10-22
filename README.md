@@ -4,7 +4,9 @@ A responsive engineering portfolio built with plain HTML, CSS, and JavaScript. I
 
 ## Project structure
 
-The VS Code workspace contains a second `alamin-simplefolio-custom` directory. **That inner directory is the website root.**
+The repository root is the website root. In the original VS Code workspace, it is the inner `alamin-simplefolio-custom` directory.
+
+**Live website:** https://alamin155241.github.io/
 
 ```text
 alamin-simplefolio-custom/       # Website root
@@ -85,7 +87,7 @@ The photo replaces the engineering illustration in the hero, with a responsive p
 
 ### Add your CV
 
-Copy your PDF to `src/assets/resume.pdf`, then set:
+The current CV is `src/assets/al-amin-cv.pdf`. Replace that file to update it, or add a different PDF and change the configured path. For example:
 
 ```js
 resume: "src/assets/resume.pdf",
@@ -99,7 +101,7 @@ Copy one complete object inside `projects`, change its text, tags, and image, an
 
 ### Add certificates
 
-The Certificates navigation link opens the Certificates & Achievements section. It is currently empty because no personal certificate files were supplied. No achievements from the reference screenshot were copied.
+The Certificates navigation link opens the Certificates & Achievements section. It includes six supplied certificates covering ROBOFUSION, TEDxUttara, and the National Undergraduate Mathematics Olympiad.
 
 1. Put your actual PDFs or images in `src/assets/certificates/`.
 2. In `portfolio.js`, uncomment the example inside `certificates`, replace the example values, and save.
@@ -131,7 +133,7 @@ For design changes only, use the color tokens in `style.css`. Google Fonts provi
 
 ## Publishing
 
-This work is local only. Nothing has been pushed or published. The website root and its `src/assets/` directory can be deployed together to a static host after explicit approval. Keep the backup and any QA artifacts outside the published directory.
+The website is published with GitHub Pages from this repository. Edit `portfolio.js` for content changes, preview locally, then commit and push the website files to `main`. GitHub Pages deploys updates automatically; check the repository Actions tab for deployment status. Keep backups and QA artifacts outside the published directory.
 
 ## Verification performed
 
